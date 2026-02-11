@@ -1,5 +1,5 @@
 import { Navigate, Outlet, useNavigate } from "react-router"
-import useAuth from "../hooks/useAuth";
+import useAuth from "../../hooks/useAuth";
 
 const Layout = () => {
     const {isLoggedIn} = useAuth();
